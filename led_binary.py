@@ -75,7 +75,7 @@ def update_led_display(a):
     GPIO.output(15, a[1])
     GPIO.output(16, a[0])
         
-binaryNumber = [0, 0, 0, 0, 0]
+binaryNumber = [0] * NUM_LIGHTS
 user_input = 0
 
 #run startup led animation
